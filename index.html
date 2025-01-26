@@ -85,7 +85,8 @@
     <script src="bootstrap-dashboard.js"></script>
     <script src="main.js"></script>
     <script>
-        $("#content").load("widgets/01-list.html");
+        var baseUrl = 'https://raw.githubusercontent.com/chrisgo/bootstrap5-dashboard/refs/heads/main/widgets';
+        $("#content").load(`${baseUrl}/01-list.html`);
     </script>
 
 </body>
